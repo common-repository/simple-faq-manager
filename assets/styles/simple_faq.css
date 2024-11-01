@@ -1,0 +1,68 @@
+.simple_faq_main_content {
+  width: 65%;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif; }
+  .simple_faq_main_content h2 {
+    margin-bottom: 40px !important; }
+  .simple_faq_main_content .simple_faq_accordion .simple_faq_single {
+    padding: 20px 0px;
+    border-bottom: 1px solid #ddd; }
+    .simple_faq_main_content .simple_faq_accordion .simple_faq_single .simple_faq_accordion_heading {
+      position: relative;
+      margin: 0;
+      font-weight: 500;
+      font-size: 1em;
+      cursor: pointer;
+      text-transform: none;
+      color: #006699; }
+      .simple_faq_main_content .simple_faq_accordion .simple_faq_single .simple_faq_accordion_heading .dashicons-arrow-down {
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        width: 25px;
+        height: 25px;
+        right: 0px;
+        top: 0px;
+        padding-right: 27px;
+        transition: 300ms all ease; }
+    .simple_faq_main_content .simple_faq_accordion .simple_faq_single .simple_faq_accordion_content {
+      display: none;
+      padding-top: 20px; }
+      .simple_faq_main_content .simple_faq_accordion .simple_faq_single .simple_faq_accordion_content > *:first-child {
+        margin-top: 0; }
+      .simple_faq_main_content .simple_faq_accordion .simple_faq_single .simple_faq_accordion_content > *:last-child {
+        margin-bottom: 0; }
+    .simple_faq_main_content .simple_faq_accordion .simple_faq_single.accordion_open .simple_faq_accordion_heading .dashicons-arrow-down {
+      transform: rotate(180deg); }
+
+.simple_faq_sidebar {
+  width: 30%;
+  float: right;
+  clear: right;
+  border-left: 1px solid #ddd;
+  padding: 20px; }
+  .simple_faq_sidebar h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-transform: none; }
+  .simple_faq_sidebar #simple_faq_topics_sidebar {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif; }
+    .simple_faq_sidebar #simple_faq_topics_sidebar li {
+      padding: 5px 0px; }
+      .simple_faq_sidebar #simple_faq_topics_sidebar li a {
+        font-size: 1em;
+        color: #006699;
+        text-decoration: none; }
+
+@media only screen and (max-width: 991px) {
+  .simple_faq_main_content {
+    width: 100%; }
+
+  .simple_faq_sidebar {
+    width: 100%;
+    margin-top: 40px; } }
+
+/*# sourceMappingURL=simple_faq.css.map */
